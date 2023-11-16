@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="stylesheet" href="buttons.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="../images/Group 1.png" alt="Logo" width="100">
+        </div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <div class="flex-con">
+        <button class="track">Track your parcel</button>
+        </div>
+    </nav>
+    <div class="container">
+    <h1>Feedback</h1>
+    <h3>Type your feedback</h3><br>
+    <div class="input_container">
+        <textarea name="feed" id="feedtext" cols="30" rows="10"></textarea>
+    </div>
+</div>
+<br>
+    <div class="cont">
+        <button id="thanksButton" class="glow-on-hover" type="button" >SUBMIT</button>  
+      </div>
+      <div id="thanksModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Thanks for your feedback!</p>
+        </div>
+    </div>
+    <script src="feedback_script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
