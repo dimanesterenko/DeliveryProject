@@ -1,0 +1,221 @@
+body {
+    height: 140vh;
+}
+
+/* Heading Delivery Status */
+.heading-status {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-top: 66px;
+    margin-left: 97px;
+}
+
+/* Heading Estimated Time */
+.heading-time,
+.alternative-heading-time {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-top: 66px;
+    margin-left: 80px;
+}
+
+/* Parcel Status Section */
+.delivery-status {
+    margin-left: 97px;
+}
+
+.row .delivery-row-1 {
+    margin-top: 75px;
+}
+
+.status-stage-h {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.status-stage-p {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+/* Delivery Time Section */
+.delivery-time {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+}
+
+.row .delivery-time {
+    margin-top: 75px;
+}
+
+.delivery-time-item {
+    margin-bottom: 80px;
+}
+
+.delivery-time-item,
+.delivery-status .row {
+    opacity: 0.5;
+}
+
+.active {
+    opacity: 1;
+}
+
+@media (max-width: 1500px) {
+    body {
+        height: 200vh;
+    }
+}
+
+@media (max-width: 1270px) {
+    body {
+        height: 270vh;
+    }
+}
+
+@media (max-width: 1110px) {
+    .delivery-time {
+        font-size: 28px;
+    }
+
+    .moon-img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .delivery-icons {
+        width: 45px;
+        height: 45px;
+    }
+
+    .status-stage-h {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 992px) {
+    .alternative-heading-time {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+
+    body {
+        height: 260vh;
+    }
+
+    .heading-status,
+    .alternative-heading-time {
+        font-size: 36px;
+    }
+
+    .heading-time {
+        display: none;
+    }
+
+    .row .delivery-time {
+        margin-left: 97px;
+    }
+
+    .delivery-time-item {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 680px) {
+
+    .row .delivery-row-1,
+    .row .delivery-time {
+        margin-top: 35px;
+    }
+
+    .delivery-time-item {
+        margin-bottom: 20px;
+    }
+
+    .status-stage-h {
+        font-size: 26px;
+    }
+
+    .delivery-icons {
+        width: 40px;
+        height: 40px;
+    }
+
+    .row .delivery-time,
+    .delivery-status,
+    .heading-status,
+    .alternative-heading-time {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 540px) {
+    body {
+        height: 290vh;
+    }
+
+    .delivery-icons {
+        width: 35px;
+        height: 35px;
+    }
+
+    .heading-status,
+    .alternative-heading-time {
+        font-size: 32px;
+    }
+
+    .status-stage-h {
+        font-size: 24px;
+    }
+
+    .status-stage-p {
+        font-size: 18px;
+    }
+
+    .delivery-time {
+        font-size: 22px;
+    }
+
+    .moon-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .row .delivery-time,
+    .delivery-status,
+    .heading-status,
+    .alternative-heading-time {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        height: 320vh;
+    }
+
+    .delivery-icons {
+        width: 30px;
+        height: 30px;
+    }
+
+    .heading-status,
+    .alternative-heading-time {
+        font-size: 26px;
+    }
+
+    .status-stage-h {
+        font-size: 18px;
+    }
+
+    .status-stage-p {
+        font-size: 14px;
+    }
+}
