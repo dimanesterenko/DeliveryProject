@@ -1,0 +1,185 @@
+body {
+    height: auto;
+}
+
+.wrapper {
+    margin-left: 97px;
+}
+
+.navbar .navbar-nav li .active {
+    color: #71A4BB;
+    font-weight: 700;
+}
+
+.heading,
+.subheading {
+    font-weight: 700;
+    color: white;
+}
+
+.heading {
+    font-size: 48px;
+    margin-top: 66px;
+}
+
+.subheading {
+    font-size: 40px;
+}
+
+.images {
+    width: 230px;
+    height: auto;
+    margin-left: 65px;
+}
+
+.img {
+    border-radius: 30px;
+}
+
+.rectangle-text {
+    display: flex;
+    width: 955px;
+    height: auto;
+    background-color: #061E28;
+    border-color: #061E28;
+    box-shadow: 0px 4px 4px 0px #000;
+    border-radius: 30px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.rectangle-price {
+    width: 230px;
+    height: auto;
+    background-color: #103C4F;
+    border-color: #103C4F;
+    box-shadow: 0px 4px 4px 0px #000;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.text {
+    font-size: 24px;
+    color: white;
+}
+
+.price {
+    font-size: 32px;
+    color: white;
+}
+
+.footer {
+    margin-top: 120px;
+}
+
+@media (max-width: 1500px) {
+
+    .images {
+        width: 260px;
+        margin-left: 0;
+    }
+
+    .rectangle-text {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1370px) {
+
+    .wrapper {
+        margin-left: 50px;
+    }
+
+    .images {
+        width: 280px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .images {
+        flex: 1;
+        align-items: center;
+    }
+
+    .rectangle-text,
+    .rectangle-price {
+        margin: auto;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 860px) {
+    .text {
+        font-size: 20px;
+    }
+
+    .price {
+        font-size: 28px;
+    }
+
+    .heading {
+        font-size: 44px;
+    }
+
+    .subheading {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 18px;
+    }
+
+    .price {
+        font-size: 26px;
+    }
+
+    .heading {
+        font-size: 42px;
+    }
+
+    .subheading {
+        font-size: 34px;
+    }
+
+    .express-content,
+    .enchanted-content,
+    .thrifty-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .images {
+        margin: auto;
+    }
+
+    .rectangle-text,
+    .rectangle-price {
+        width: auto;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .price {
+        font-size: 20px;
+    }
+
+    .heading {
+        font-size: 36px;
+        margin-top: 30px;
+    }
+
+    .subheading {
+        font-size: 28px;
+    }
+}
