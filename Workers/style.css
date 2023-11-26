@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/font/static/FiraCode-Medium.ttf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/font/static/FiraCode-SemiBold.ttf');
+    font-weight: 600;
+}
+
+
+.font {
+    font-family: 'Fira Code';
+}
+
+
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+
+
+
+
+
+/* Logo */
+.navbar-brand {
+    margin-left: 33px;
+}
+
+
+/* Menu */
+.navbar-nav {
+    width: 737px;
+    justify-content: space-between;
+}
+
+
+.navbar-nav li a {
+    color: #CAD3D8;
+    padding: 10px;
+    font-size: 32px;
+}
+
+
+.navbar-nav li a:hover {
+    text-decoration: underline;
+    color: #346377;
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+
+    .logo {
+        width: 80%;
+        height: 80%;
+    }
+
+
+    .navbar-nav li a {
+        font-size: 26px;
+    }
+
+   
+}
+
+
+@media (max-width: 992px) {
+
+
+    .navbar-nav {
+        width: 90%;
+    }
+
+
+    .logo {
+        width: 70%;
+        height: 70%;
+    }
+
+
+    .navbar-nav li a {
+        font-size: 24px;
+    }
+
+    
+   
+}
+
+
+@media (max-width: 768px) {
+
+
+    .navbar-nav {
+        align-items: end;
+        width: 100%;
+    }
+
+
+    .navbar-nav li a {
+        padding: 0;
+        padding-right: 15px;
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+    .logo {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .logo {
+        width: 50%;
+        height: 50%;
+    }
+
+
+    .mail {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+.blue-text {
+    color: #346377;
+}
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  margin-top: 10%;
+  margin-right: 3%;
+  align-items:center;
+
+
+
+}
+
+
+.mail-logo {
+  width: 5%
+}
+
+
+.mail-logo img {
+  width: 50%
+}
+
+
+.mail{
+  font-family: "Fira Code", monospace;
+  font-size: 24px;
+  color: #CAD3D8;
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .d-flex a.nav-link {
+        font-size: 26px !important; /* Додавання !important може забезпечити перевагу для цих стилів */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .d-flex a.nav-link {
+        font-size: 24px !important; /* Додавання !important може забезпечити перевагу для цих стилів */
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .d-flex a.nav-link {
+        font-size: 24px !important; /* Додавання !important може забезпечити перевагу для цих стилів */
+    }
+
+
+    .mail{
+        font-size: 24px !important; 
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .navbar-nav {
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+    }
+
+
+    .navbar-nav li a {
+        padding: 0;
+        padding-right: 15px;
+        font-size: 20px;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end; /* Помістіть всі пункти меню вправо */
+    }
+
+    .navbar-toggler {
+        margin-left: auto; /* Вирівняйте бургер-меню до правого краю */
+    }
+
+    
+
+    .mail{
+        font-size: 20px !important; 
+    }
+
+    .block1_2{
+        flex-wrap: wrap;
+      }
+
+
+    .name1{
+        text-align: center;
+    
+    }
+
+    .name2{
+        text-align: center;
+    }
+    
+
+    
+
+}
+
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+
+    color: #CAD3D8;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+  }
+
+  .block{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .block1_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    align-items: center;
+    font-size: 24px;
+   
+  }
+
+  .picture{
+    width: 25%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    margin-top: 1%;
+  }
+
+  .picture img{
+    width: 100%;
+  }
+
+  .container{
+    background-color: #061E28; 
+    border-radius: 30px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 40%;
+    margin-right: 10%;
+  }
+
+  .name1{
+    text-align: left;
+    margin-left: 3%;
+    font-weight: bold;
+    font-size: 40px;
+    
+  }
+
+  .name2{
+    text-align: right;
+    margin-right: 3%;
+    font-weight: bold;
+    font-size: 40px;
+    
+  }
+
+  .header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+  }

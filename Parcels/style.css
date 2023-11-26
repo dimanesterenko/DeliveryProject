@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/font/static/FiraCode-Medium.ttf');
+    font-weight: 500;
+}
+
+
+@font-face {
+    font-family: 'Fira Code';
+    src: url('/font/static/FiraCode-SemiBold.ttf');
+    font-weight: 600;
+}
+
+
+.font {
+    font-family: 'Fira Code';
+}
+
+
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-width: 680px;
+  }
+
+
+
+
+
+
+/* Logo */
+.navbar-brand {
+    margin-left: 33px;
+}
+
+
+/* Menu */
+.navbar-nav {
+    width: 737px;
+    justify-content: space-between;
+}
+
+
+.navbar-nav li a {
+    color: #CAD3D8;
+    padding: 10px;
+    font-size: 32px;
+}
+
+
+.navbar-nav li a:hover {
+    text-decoration: underline;
+    color: #71A4BB;
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+
+    .logo {
+        width: 80%;
+        height: 80%;
+    }
+
+
+    .navbar-nav li a {
+        font-size: 26px;
+    }
+
+   
+}
+
+
+@media (max-width: 992px) {
+
+
+    .navbar-nav {
+        width: 90%;
+    }
+
+
+    .logo {
+        width: 70%;
+        height: 70%;
+    }
+
+
+    .navbar-nav li a {
+        font-size: 24px;
+    }
+
+    
+   
+}
+
+
+@media (max-width: 768px) {
+
+
+    .navbar-nav {
+        align-items: end;
+        width: 100%;
+    }
+
+
+    .navbar-nav li a {
+        padding: 0;
+        padding-right: 15px;
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+    .logo {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .logo {
+        width: 50%;
+        height: 50%;
+    }
+
+
+    .mail {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  margin-top: 10%;
+  margin-right: 3%;
+  align-items:center;
+
+}
+
+
+.mail-logo {
+  width: 5%
+}
+
+
+.mail-logo img {
+  width: 50%
+}
+
+
+.mail{
+  font-family: "Fira Code", monospace;
+  font-size: 24px;
+  color: #CAD3D8;
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .d-flex a.nav-link {
+        font-size: 26px !important; /* Додавання !important може забезпечити перевагу для цих стилів */
+    }
+
+    .name{
+        font-size: 40px !important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .d-flex a.nav-link {
+        font-size: 24px !important; /* Додавання !important може забезпечити перевагу для цих стилів */
+    }
+    .mail{
+        font-size: 24px !important; 
+    }
+
+    .name{
+        font-size: 36px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .name{
+        font-size: 30px !important;
+    }
+
+}
+    
+
+@media (max-width: 768px) {
+
+
+    .navbar-nav {
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+    }
+
+
+    .navbar-nav li a {
+        padding: 0;
+        padding-right: 15px;
+        font-size: 20px;
+    }
+
+    .navbar-collapse {
+        justify-content: flex-end; /* Помістіть всі пункти меню вправо */
+    }
+
+    .navbar-toggler {
+        margin-left: auto; /* Вирівняйте бургер-меню до правого краю */
+    }
+
+    
+
+    .mail{
+        font-size: 20px !important; 
+    }
+
+    .name{
+        font-size: 32px;
+    }
+
+    
+
+}
+
+
+
+
+.text{
+    display: flex;
+    flex-direction: column;
+
+    color: #CAD3D8;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+  }
+
+
+.block{
+    display: flex;
+    flex-direction: column;
+}
+  
+.block1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+
+.picture {
+    width: 20%;
+    border-radius: 30px;
+}
+
+.picture img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+.name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+
+    background-color: #061E28;
+    border-radius: 30px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* Тінь */
+    padding: 20px; 
+
+    width: 45%;
+   
+}
+
+.price{
+    background-color: #103C4F;
+    border-radius: 30px; 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75); /* Тінь */
+    padding: 20px; 
+    width: 25%;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+@media (max-width: 1200px) {
+    .name {
+      font-size: 38px; /* Змінюємо розмір шрифту для екранів до 1200px */
+    }
+    .price{
+       font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .name {
+      font-size: 32px; /* Змінюємо розмір шрифту для екранів до 992px */
+    }
+    .price{
+        font-size: 30px;
+     }
+  }
+  
+  @media (max-width: 768px) {
+    .name {
+      font-size: 28px; /* Змінюємо розмір шрифту для екранів до 768px */
+    }
+    .price{
+        font-size: 24px;
+     }
+  }
+  @media (max-width: 550px) {
+    .name {
+      font-size: 24px; /* Змінюємо розмір шрифту для екранів до 768px */
+    }
+    .price{
+        font-size: 20px;
+     }
+  }
+  
+
+  .block1:hover .picture,
+  .block1:hover .name,
+  .block1:hover .price {
+    box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.5); /* бірюзова підсвітка */
+    transition: box-shadow 0.3s ease-in-out; /* Плавний перехід для підсвічування */
+  }
