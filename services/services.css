@@ -139,6 +139,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .navbar-nav {
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+    }
+
     .text {
         font-size: 18px;
     }

@@ -79,6 +79,12 @@ body {
         height: 480vh;
     }
 
+    .navbar-nav {
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+    }
+
     .row-1 .card {
         margin-top: 50px;
     }
