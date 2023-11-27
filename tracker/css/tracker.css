@@ -99,6 +99,12 @@
         height: 180vh;
     }
 
+    .navbar-nav {
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+    }
+
     .heading,
     .text {
         margin-left: 30px;

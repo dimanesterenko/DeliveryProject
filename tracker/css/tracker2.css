@@ -137,6 +137,14 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .navbar-nav {
+        align-items: end;
+        justify-content: end;
+        width: 100%;
+    }
+}
+
 @media (max-width: 680px) {
 
     .row .delivery-row-1,
