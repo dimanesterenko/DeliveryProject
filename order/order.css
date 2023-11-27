@@ -81,3 +81,12 @@ aside {
     right: 45%; /* Adjust the distance from the right as needed */
     cursor: pointer;
 }
+
+.form-check, .col-md-6{
+    font-size: 32px;
+
+}
+
+.form-control{
+    background-color: #1207074a;
+}
