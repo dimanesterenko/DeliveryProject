@@ -1,3 +1,7 @@
+.navbar-nav {
+    width: 900px;
+}
+
 /* Heading */
 .heading {
     font-size: 48px;
@@ -65,6 +69,12 @@
 @media (max-width: 1380px) {
     .form-control::placeholder {
         font-size: 24px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .navbar-nav {
+        width: 80%;
     }
 }
 
