@@ -90,3 +90,8 @@ aside {
 .form-control{
     background-color: #1207074a;
 }
+
+
+.secondblock{
+    display: none;
+}

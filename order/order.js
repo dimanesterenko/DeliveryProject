@@ -1,4 +1,5 @@
 function saveOrder() {
+    
     // Get selected values
     const productDescription = document.getElementById('descr').value;
     const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked').value;
