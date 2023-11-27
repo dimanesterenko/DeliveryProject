@@ -10,32 +10,6 @@ body{
     color: #ddd;
 }
 
-nav {
-    overflow: hidden;
-    font-size: 32px;
-    margin-top: 37px;
-}
-
-nav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-nav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-.logo {
-    float: left;
-    display: inline;
-    padding: 14px 16px;
-    margin: 0;
-}
 
 .input_container{
     display: flex;
@@ -105,5 +79,119 @@ nav a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+
+
+/* Logo */
+.navbar-brand {
+    margin-left: 33px;
+}
+
+
+/* Menu */
+.navbar-nav {
+    width: 737px;
+    justify-content: space-between;
+}
+
+
+.navbar-nav li a {
+    color: #CAD3D8;
+    padding: 10px;
+    font-size: 32px;
+}
+
+
+.navbar-nav li a:hover {
+    text-decoration: underline;
+    color: #346377;
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+
+    .logo {
+        width: 80%;
+        height: 80%;
+    }
+
+
+    .navbar-nav li a {
+        font-size: 26px;
+    }
+
+   
+}
+
+
+@media (max-width: 992px) {
+
+
+    .navbar-nav {
+        width: 90%;
+    }
+
+
+    .logo {
+        width: 70%;
+        height: 70%;
+    }
+
+
+    .navbar-nav li a {
+        font-size: 24px;
+    }
+
+    
+   
+}
+
+
+@media (max-width: 768px) {
+
+
+    .navbar-nav {
+        align-items: end;
+        width: 100%;
+    }
+
+
+    .navbar-nav li a {
+        padding: 0;
+        padding-right: 15px;
+        font-size: 20px;
+    }
+
+
+
+}
+
+
+@media (max-width: 576px) {
+
+
+    .logo {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .logo {
+        width: 50%;
+        height: 50%;
+    }
+
+
+    .mail {
+        font-size: 20px;
+    }
+}
+
+
 
 
