@@ -15,17 +15,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
-
+#name{
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    background: #04151D;
+    box-shadow: 0px 4px 4px 0px #000;
+    padding: 20px;
+    margin-bottom: 40px;
+}
 #feedtext{
     color: white;
-    width: 1483px;
+    max-width: 1483px;
     height: 200px;
     border-radius: 30px;
     background: #04151D;
     box-shadow: 0px 4px 4px 0px #000;
     padding: 20px;
     resize: none;
+
 }
 
 .flex-con{
@@ -81,6 +92,20 @@ body{
 }
 
 
+.savi {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    max-width: 800px;
+}
+
+.box {
+    padding: 10px;
+    margin: 10px;
+    background-color: #1207074a;
+    border-radius: 20px;
+}
 
 /* Logo */
 .navbar-brand {

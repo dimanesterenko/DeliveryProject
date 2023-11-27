@@ -70,18 +70,29 @@
     <div class="container">
         <h1>Feedback</h1>
         <h3>Type your feedback</h3><br>
+
         <div class="input_container">
+            <h2>Name</h2>
+            <input type="text" id="name">          
+            <h2>Feedback - scaryback</h2>
             <textarea name="feed" id="feedtext" cols="30" rows="10"></textarea>
         </div>
     </div>
     <br>
     <div class="cont">
-        <button id="thanksButton" class="glow-on-hover" type="button">SUBMIT</button>
+        <button id="thanksButton" class="glow-on-hover" type="button" onclick="addFeedback()">SUBMIT</button>
     </div>
     <div id="thanksModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
             <p>Thanks for your feedback!</p>
+        </div>
+    </div>
+
+    <div class="container savi" id="feedbackContainer">
+        <div class="box">
+            <h2>Malena</h2>
+            <p>Good company! Very scaring!</p>
         </div>
     </div>
 
