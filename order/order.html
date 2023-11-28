@@ -68,10 +68,15 @@
             <h1>Create order</h1>
             <h2>Size of parcel</h2>
             <div class="sizes">
-                <div class="box"><a href="#" onclick="selectSize('0.5kg')">0.5kg</a></div>
-                <div class="box"><a href="#" onclick="selectSize('1kg')">1kg</a></div>
-                <div class="box"><a href="#" onclick="selectSize('5kg')">5kg</a></div>
-                <div class="box"><a href="#" onclick="selectSize('10kg')">10kg</a></div>
+                <label>Select Size:</label>
+                <input type="radio" name="size" id="size05" value="0.5kg" ">
+                <label for="size05">0.5kg</label>
+                <input type="radio" name="size" id="size1" value="1kg"">
+                <label for="size1">1kg</label>
+                <input type="radio" name="size" id="size5" value="5kg"">
+                <label for="size5">5kg</label>
+                <input type="radio" name="size" id="size10" value="10kg"">
+                <label for="size10">10kg</label>
             </div>
             <div class="product">
                 <div class="_about">
@@ -81,8 +86,6 @@
                 </div>
             </div>
             <h2>How to pay</h2>
-            
-
           <div class="my-3">
             <div class="form-check">
               <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked required>
@@ -202,16 +205,6 @@
                       </div>
                     </div>
         
-                    <div class="col-md-4">
-                      <label for="state" class="form-label">State</label>
-                      <select class="form-select" id="state" required>
-                        <option value="">Choose...</option>
-                        <option>California</option>
-                      </select>
-                      <div class="invalid-feedback">
-                        Please provide a valid state.
-                      </div>
-                    </div>
         
                     <div class="col-md-3">
                       <label for="zip" class="form-label">Zip</label>

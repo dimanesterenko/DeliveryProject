@@ -95,3 +95,31 @@ aside {
 .secondblock{
     display: none;
 }
+
+.sizes {
+    display: flex;
+    flex-direction: row;
+}
+
+.sizes label {
+    font-size: 1.5em; /* Set the desired text size */
+    margin-bottom: 5px;
+}
+
+.sizes input[type="radio"] {
+    display: none; /* Hide the default radio buttons */
+}
+
+.sizes label {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px; /* Set the border-radius for rounded corners */
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.sizes input[type="radio"]:checked + label {
+    background-color: #053306; /* Change the background color when the radio button is checked */
+    color: #fff; /* Change the text color when the radio button is checked */
+}
