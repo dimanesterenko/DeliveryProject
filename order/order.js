@@ -25,3 +25,18 @@ var secondBlock = document.querySelector('.secondblock');
     }
 }
 
+function saveData() {
+    var formData = {
+      firstName: document.getElementById('firstName').value,
+      lastName: document.getElementById('lastName').value,
+      username: document.getElementById('username').value,
+      email: document.getElementById('email').value,
+      address: document.getElementById('address').value,
+      address2: document.getElementById('address2').value,
+      country: document.getElementById('country').value,
+      zip: document.getElementById('zip').value
+    };
+    var jsonData = JSON.stringify(formData);
+
+    console.log(jsonData);
+  }

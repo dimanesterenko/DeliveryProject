@@ -29,7 +29,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 font">
                     <li class="nav-item">
-                        <a class="nav-link ps-4" href="/about/about.html">About</a>
+                        <a class="nav-link ps-4" href="../Main/index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/Workers/index.html">Workers</a>
@@ -78,13 +78,12 @@
                 <input type="radio" name="size" id="size10" value="10kg"">
                 <label for="size10">10kg</label>
             </div>
-            <div class="product">
-                <div class="_about">
-                    <h2>What do you send?</h2>
-
-                    <textarea name="feed" id="descr" cols="10" rows="5"></textarea>
+                <div class="product">
+                    <div class="_about">
+                        <h2>What do you send?</h2>
+                        <textarea name="feed" id="descr" cols="10" rows="5"></textarea>
+                    </div>
                 </div>
-            </div>
             <h2>How to pay</h2>
           <div class="my-3">
             <div class="form-check">
@@ -162,16 +161,6 @@
                       </div>
                     </div>
         
-                    <div class="col-12">
-                      <label for="username" class="form-label">Username</label>
-                      <div class="input-group has-validation">
-                        <span class="input-group-text">@</span>
-                        <input type="text" class="form-control" id="username" placeholder="Username" required>
-                      <div class="invalid-feedback">
-                          Your username is required.
-                        </div>
-                      </div>
-                    </div>
         
                     <div class="col-12">
                       <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
@@ -224,22 +213,18 @@
                     <h3>parcel details</h3>
                 </div>
                 <div class="item utem-2">
-                    <img src="../images/EllipseNot.png" alt="">
+                    <img src="../images/Ellipse 2.png" alt="">
                     <h3>payment details</h3>
                 </div>
                 <div class="item utem-3">
-                    <div><img src="../images/EllipseNot.png" alt=""></div>
+                    <div><img src="../images/Ellipse 2.png" alt=""></div>
                     <div>
                         <h3>sender details</h3>
                     </div>
                 </div>
-                <div class="item utem-4">
-                    <img src="../images/EllipseNot.png" alt="">
-                    <h3>parcel details</h3>
-                </div>
             </div>
             <div class="subdiv">
-                <button class="track" type="submit">Submit</button>
+                <button class="track" type="submit" onclick="saveData()">Submit</button>
             </div>
         </aside>
     </div>
