@@ -1,5 +1,5 @@
 function saveOrder() {
-    
+
     // Get selected values
     const productDescription = document.getElementById('descr').value;
     const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked').value;
@@ -20,4 +20,11 @@ function saveOrder() {
 
 const jsonString = JSON.stringify(orderData);
 console.log(jsonString);
+var firstBlock = document.querySelector('.firstblock');
+var secondBlock = document.querySelector('.secondblock');
+    if (firstBlock) {
+        firstBlock.style.display = 'none';
+        secondBlock.style.display='block';
+    }
 }
+

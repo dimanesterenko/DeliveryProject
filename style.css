@@ -8,7 +8,7 @@ body{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(../DeliveryProject/Main/img/veiled-beauty-dances-in-mysterious-levitation-motion-generated-by-ai.jpg);
+    background: #080705;
   
     .spinner{
       position: absolute;
